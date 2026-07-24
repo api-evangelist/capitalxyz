@@ -1,7 +1,15 @@
 aid: capitalxyz
 name: Capital.xyz
-description: Capital.xyz is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Capital.xyz (the company behind the former Party Round) is a startup banking
+  and fundraising platform that helps founders raise, hold, spend, and send
+  money in one place. Companies sign up to run fundraising rounds, receive a
+  virtual Visa debit card once capital is raised, hold and move funds, and
+  connect the account to fintech services such as Gusto. The product is built on
+  embedded-finance rails (Unit, Plaid, Visa) and is a consumer/SMB-facing
+  application; as of this enrichment pass Capital.xyz publishes no public
+  developer program, API reference, OpenAPI, or docs portal. Added to the API
+  Evangelist network as a portfolio company of a16z.
 url: https://raw.githubusercontent.com/api-evangelist/capitalxyz/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +17,43 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-public-api: true
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://capital.xyz/img/common/app_icon.png
 tags:
 - Company
+- Fintech
+- Banking
+- Startups
+- Fundraising
+- Embedded Finance
+- Venture Capital
 apis: []
+common:
+- type: Website
+  url: https://capital.xyz
+- type: GitHubOrganization
+  url: https://github.com/capitalxyz
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
