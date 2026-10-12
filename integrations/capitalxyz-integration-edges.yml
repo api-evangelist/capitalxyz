@@ -1,0 +1,18 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/capitalxyz/integrations
+- https://zapier.com/apps/capital-xyz/integrations
+- https://n8n.io/integrations/capitalxyz/
+- https://composio.dev/toolkits/capitalxyz
+- https://monid.ai/tools/capitalxyz
+checked:
+- https://composio.dev/toolkits/capitalxyz
+- https://monid.ai/tools/capitalxyz
+- https://n8n.io/integrations/capitalxyz/
+- https://zapier.com/apps/capital-xyz/integrations
+- https://zapier.com/apps/capitalxyz/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
